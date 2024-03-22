@@ -21,5 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-# for force to error 
-#one=1
+""" 
+for force to error 
+one=1
+"""
