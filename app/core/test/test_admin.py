@@ -17,7 +17,8 @@ class AdminSiteTests(TestCase):
             password='pass1234',
             name='Test User'
         )
-        
+
+       # 1 
     def test_users_list(self):
         url = reverse('admin:core_user_changelist')
         res = self.client.get(url)
